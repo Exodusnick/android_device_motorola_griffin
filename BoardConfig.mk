@@ -195,9 +195,6 @@ BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 # Enable peripheral manager
 TARGET_PER_MGR_ENABLED := true
 
-# Media
-TARGET_USES_MEDIA_EXTENSIONS := true
-
 # Vendor security patch level
 VENDOR_SECURITY_PATCH := 2021-10-01
 
