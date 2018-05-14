@@ -89,8 +89,7 @@ PRODUCT_PACKAGES += \
     libtinyxml \
     libtinycompress \
     libaudioroute \
-    libvolumelistener \
-    tinymix
+    libvolumelistener
 
 PRODUCT_PACKAGES += \
     android.hardware.audio@5.0-impl:32 \
