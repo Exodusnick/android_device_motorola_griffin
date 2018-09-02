@@ -420,8 +420,7 @@ PRODUCT_PACKAGES += \
 # libstdc++: camera.msm8996
 PRODUCT_PACKAGES += \
     libicuuc.vendor \
-    libstdc++.vendor \
-    vndk_package
+    libstdc++.vendor
 
 # VR
 PRODUCT_PACKAGES += \
