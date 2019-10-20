@@ -40,3 +40,10 @@ cc_library_shared {
     srcs: ["libshim_libimsmedia.cpp"],
     compile_multilib: "64",
 }
+
+cc_library {
+    name: "libbase_shim",
+    shared_libs: ["libbase"],
+    srcs: ["logging.cpp"],
+    vendor: true
+}
