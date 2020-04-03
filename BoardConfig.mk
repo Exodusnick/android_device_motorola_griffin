@@ -128,6 +128,7 @@ TARGET_KERNEL_CONFIG := griffin_defconfig
 TARGET_KERNEL_SOURCE := kernel/motorola/msm8996
 
 TARGET_KERNEL_CLANG_COMPILE := false
+KERNEL_LD := LD=ld.lld
 
 # Audio
 AUDIO_FEATURE_ENABLED_EXT_HDMI := true
