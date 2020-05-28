@@ -56,6 +56,9 @@ vendor/lib/libllvd_smore.so|d08432b63c6c2863e7a197b52475df64b10b5e13
 # Camera from deen user-9-PPKS29.68-16-33-17-c4e01-release-keys
 vendor/lib/libmmcamera_dcrf_lib.so|842981218abe798073158dbf380bbefa8dc2d065
 
+# Camera - from Hydrogen 7.0/NRD90M/V10.3.2.0.NBCCNXM
+vendor/lib/libmmcamera_sw_tnr.so|59b0f350eb0cfa85399c296af14ac680ca99705e
+
 # Camera
 vendor/lib/libmot_gpu_mapper.so
 
