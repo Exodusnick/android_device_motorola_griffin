@@ -155,7 +155,6 @@ PRODUCT_PACKAGES += \
     hwcomposer.msm8996 \
     libdisplayconfig \
     libgenlock \
-    liboverlay \
     libqdMetaData.system \
     libvulkan
 
