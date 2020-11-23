@@ -147,18 +147,11 @@ PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-impl \
     android.hardware.memtrack@1.0-service \
     gralloc.msm8996 \
-    copybit.msm8996 \
     memtrack.msm8996 \
     hwcomposer.msm8996 \
     libdisplayconfig \
     libgenlock \
     libqdMetaData.system
-
-# Ebtables
-PRODUCT_PACKAGES += \
-    ebtables \
-    ethertypes \
-    libebtc
 
 # Fingerprint
 PRODUCT_PACKAGES += \
