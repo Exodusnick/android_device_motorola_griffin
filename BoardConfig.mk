@@ -187,9 +187,6 @@ TARGET_LD_SHIM_LIBS := \
 # Camera
 BOARD_QTI_CAMERA_32BIT_ONLY := true
 
-# Properties
-BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
-
 # Enable peripheral manager
 TARGET_PER_MGR_ENABLED := true
 
