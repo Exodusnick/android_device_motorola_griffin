@@ -126,12 +126,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     sys.mod.platformsdkversion=205
 
-# Netmgr
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.vendor.use_data_netmgrd=true \
-    persist.data.netmgrd.qos.enable=true \
-    persist.vendor.data.mode=concurrent
-
 # OMX
 # Rank OMX SW codecs lower than OMX HW codecs
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -158,7 +152,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.dbg.volte_avail_ovr=1 \
     persist.dbg.vt_avail_ovr=1 \
     persist.dbg.wfc_avail_ovr=1 \
-    persist.vendor.ims.dropset_feature=0 \
     persist.vendor.ims.disableADBLogs=2 \
     persist.vendor.ims.disableDebugLogs=0 \
     persist.vendor.ims.disableQXDMLogs=0 \
@@ -208,7 +201,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.call_ring.multiple=false \
     ril.subscription.types=NV,RUIM \
     rild.libpath=/vendor/lib64/libril-qc-qmi-1.so \
-    vendor.rild.libpath=/vendor/lib64/libril-qc-qmi-1.so \
     ro.telephony.iwlan_operation_mode=legacy \
     ro.vendor.build.vendorprefix=/vendor \
     ro.build.vendorprefix=/vendor
@@ -217,7 +209,6 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.sys.fflag.override.settings_network_and_internet_v2=true \
     persist.vendor.cne.feature=1 \
     persist.vendor.dpm.feature=0 \
-    DEVICE_PROVISIONED=1 \
     ril.subscription.types=NV,RUIM \
     telephony.lteOnCdmaDevice=1
 
