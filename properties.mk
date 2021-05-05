@@ -115,7 +115,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     mm.enable.qcom_parser=1048575 \
     vendor.mm.en.sec.smoothstreaming=false \
     mm.enable.smoothstreaming=false \
-    mmp.enable.3g2=true \
     vidc.enc.dcvs.extra-buff-count=2 \
     vendor.vidc.enc.disable.pq=true
 
