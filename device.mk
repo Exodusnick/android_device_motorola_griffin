@@ -152,8 +152,7 @@ PRODUCT_PACKAGES += \
     hwcomposer.msm8996 \
     libdisplayconfig \
     libgenlock \
-    libqdMetaData.system \
-    libvulkan
+    libqdMetaData.system
 
 # Ebtables
 PRODUCT_PACKAGES += \
@@ -413,14 +412,6 @@ PRODUCT_PACKAGES += \
 # Vibrator
 PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.0-service.griffin
-
-# VNDK
-# Update this list with what each blob is actually for
-# libicuuc: vendor.qti.hardware.qteeconnector@1.0-impl
-# libstdc++: camera.msm8996
-PRODUCT_PACKAGES += \
-    libicuuc.vendor \
-    libstdc++.vendor
 
 # WiFi HAL
 PRODUCT_PACKAGES += \
