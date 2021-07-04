@@ -120,10 +120,6 @@ vendor/lib64/vendor.qti.hardware.factory@1.0.so
 vendor/lib64/vendor.qti.hardware.factory@1.1.so
 vendor/lib64/vendor.qti.latency@2.0.so
 
-# DRM - HDCP
-vendor/lib/libmm-hdcpmgr.so
-vendor/lib64/libmm-hdcpmgr.so
-
 # DRM - Qualcomm Trusted Execution Enviornment
 vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service
 vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc
