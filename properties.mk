@@ -102,6 +102,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.gralloc.enable_fb_ubwc=1 \
     debug.gralloc.enable_fb_ubwc=1 \
     vendor.display.disable_skip_validate=1 \
+    vendor.display.disable_rotator_downscale=1 \
     sdm.debug.disable_skip_validate=1 \
     persist.demo.hdmirotationlock=false \
     debug.sf.enable_hwc_vds=1 \
