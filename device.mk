@@ -350,10 +350,6 @@ PRODUCT_ODM_PROPERTIES += \
 PRODUCT_PACKAGES += \
     libjson
 
-# RenderScript HAL
-PRODUCT_PACKAGES += \
-    android.hardware.renderscript@1.0-impl
-
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
