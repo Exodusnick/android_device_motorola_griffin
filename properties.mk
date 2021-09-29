@@ -230,6 +230,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.qti.sensors.pmd=false \
     ro.qti.sensors.sta_detect=false
 
+# SOC
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.soc.manufacturer=Qualcomm \
+    ro.soc.model=MSM8996
+
 # SurfaceFlinger
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.force_hwc_copy_for_virtual_displays=true \
