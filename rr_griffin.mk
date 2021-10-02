@@ -23,7 +23,7 @@ $(call inherit-product, device/motorola/griffin/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
@@ -46,7 +46,7 @@ TARGET_BOOTANIMATION_HALF_RES := true
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
-PRODUCT_NAME := lineage_griffin
+PRODUCT_NAME := rr_griffin
 PRODUCT_BRAND := motorola
 PRODUCT_DEVICE := griffin
 PRODUCT_MODEL := Moto Z
