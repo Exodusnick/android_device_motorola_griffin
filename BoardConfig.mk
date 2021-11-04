@@ -181,7 +181,8 @@ BOARD_HAS_QCA_BT_ROME := true
 
 # SHIMS
 TARGET_LD_SHIM_LIBS := \
-    /system/product/lib64/libimsmedia_jni.so|libshim_libimsmedia.so
+    /system/product/lib64/libimsmedia_jni.so|libshim_libimsmedia.so \
+    /vendor/lib/libmot_gpu_mapper.so|libgpu_mapper_shim.so
 
 # Camera
 BOARD_QTI_CAMERA_32BIT_ONLY := true
