@@ -188,6 +188,10 @@ BOARD_HAS_QCA_BT_ROME := true
 BOARD_HAVE_BLUETOOTH := true
 BOARD_HAVE_BLUETOOTH_QCOM := true
 
+# SHIMS
+TARGET_LD_SHIM_LIBS := \
+    /system/product/lib64/libimsmedia_jni.so|libshim_libimsmedia.so
+
 # Camera
 BOARD_QTI_CAMERA_32BIT_ONLY := true
 

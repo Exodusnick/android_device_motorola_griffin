@@ -220,6 +220,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/idc/fpc1020.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/fpc1020.idc
 
+#IMS Shim
+PRODUCT_PACKAGES += \
+    libbase_shim \
+    libshim_libimsmedia
+
 # IMS
 PRODUCT_PACKAGES += \
     ims-ext-common \
