@@ -83,7 +83,6 @@
     <hidden-api-whitelisted-app package="com.qualcomm.qti.lpa" />
     <hidden-api-whitelisted-app package="com.qualcomm.qti.uim" />
 
-    <hidden-api-whitelisted-app package="org.codeaurora.snapcam" />
     <hidden-api-whitelisted-app package="com.android.mms" />
     <hidden-api-whitelisted-app package="com.qualcomm.qti.carrierswitch" />
     <hidden-api-whitelisted-app package="com.qualcomm.qti.carrierconfigure" />
