@@ -392,7 +392,8 @@ PRODUCT_PACKAGES += \
     libjustshoot_shim \
     libjni_shim \
     libmemset_shim \
-    libqsap_shim
+    libqsap_shim \
+    libshim_gpumaper
 
 # Soong
 PRODUCT_SOONG_NAMESPACES += \

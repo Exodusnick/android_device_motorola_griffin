@@ -40,3 +40,11 @@ cc_library_shared {
     srcs: ["libshim_libimsmedia.cpp"],
     compile_multilib: "64",
 }
+
+//libshim_gpumaper
+cc_library_shared {
+    name: "libshim_gpumaper",
+    srcs: ["libshim_gpumaper.cpp"],
+    compile_multilib: "64",
+    vendor: true,
+}
