@@ -176,11 +176,12 @@ BOARD_VNDK_VERSION := current
 BOARD_NFC_CHIPSET := pn544
 
 # SELinux
-include device/qcom/sepolicy-legacy-um/SEPolicy.mk
-BOARD_VENDOR_SEPOLICY_DIRS += $(PLATFORM_PATH)/sepolicy/vendor
-BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(PLATFORM_PATH)/sepolicy/private
-BOARD_VENDOR_SEPOLICY_DIRS += $(PLATFORM_PATH)/sepolicy-mods/vendor
-BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(PLATFORM_PATH)/sepolicy-mods/private
+#include device/qcom/sepolicy-legacy-um/SEPolicy.mk
+#BOARD_VENDOR_SEPOLICY_DIRS += $(PLATFORM_PATH)/sepolicy/vendor
+#BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(PLATFORM_PATH)/sepolicy/private
+#BOARD_VENDOR_SEPOLICY_DIRS += $(PLATFORM_PATH)/sepolicy-mods/vendor
+#BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(PLATFORM_PATH)/sepolicy-mods/private
+BOARD_SEPOLICY_DIRS += $(PLATFORM_PATH)/minimal-sepolicy
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(PLATFORM_PATH)/bluetooth
