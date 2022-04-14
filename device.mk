@@ -74,6 +74,7 @@ PRODUCT_PACKAGES += \
     audio.r_submix.default \
     audio.usb.default \
     audio.bluetooth.default \
+    android.hardware.bluetooth@1.0.vendor \
     libaudio-resampler \
     libqcomvisualizer \
     libqcomvoiceprocessing \
@@ -136,6 +137,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
     android.hardware.drm@1.0-service \
+    android.hardware.drm@1.1.vendor \
     android.hardware.drm@1.3-service.clearkey
 
 # Display
