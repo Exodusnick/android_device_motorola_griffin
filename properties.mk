@@ -119,6 +119,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vidc.enc.dcvs.extra-buff-count=2 \
     vendor.vidc.enc.disable.pq=true
 
+# Hardware
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.hardware.egl=adreno
+
 # HDR
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.display.hdr.config=/vendor/etc/hdr_tm_config.xml
