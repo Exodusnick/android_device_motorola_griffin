@@ -435,4 +435,23 @@
          running in WAL mode.
          Choices are: FULL, NORMAL, OFF. -->
     <string name="db_wal_sync_mode" translatable="false">OFF</string>
+
+    <!-- Additional, device specific overlays -->
+    <bool name="config_liveDisplayAvailable">true</bool>
+
+    <!-- disable AOD by default -->
+    <bool name="config_dozeAlwaysOnEnabled">false</bool>
+
+    <!-- Enable Smart Pixels -->
+    <bool name="config_enableSmartPixels">true</bool>
+
+    <!-- no EGL rendering? -->
+    <bool name="config_animateScreenLights">false</bool>
+
+    <!-- System info -->
+    <string name="config_sysCPUTemp">/sys/class/thermal/thermal_zone0/temp</string>
+    <string name="config_sysBatteryTemp">/sys/class/power_supply/battery/temp</string>
+    <string name="config_sysGPUFreq">/sys/kernel/gpu/gpu_clock</string>
+    <string name="config_sysGPULoad">/sys/kernel/gpu/gpu_busy</string>
+
 </resources>
