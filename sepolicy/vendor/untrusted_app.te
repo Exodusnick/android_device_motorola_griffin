@@ -1,1 +1,5 @@
 r_dir_file(untrusted_app, sysfs_usb_supply)
+
+dontaudit untrusted_app proc:file read;
+dontaudit untrusted_app serialno_prop:file read;
+dontaudit untrusted_app proc_tty_drivers:file read;

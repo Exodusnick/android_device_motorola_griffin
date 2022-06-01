@@ -2,3 +2,5 @@ allow cnd netmgrd:dir search;
 allow cnd netmgrd:file { open read };
 
 allow cnd sysfs:file { read open };
+
+allow cnd radio:binder call;

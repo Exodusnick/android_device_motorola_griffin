@@ -21,3 +21,5 @@ allow mm-qcamerad sysfs_mods_camd:file rw_file_perms;
 allow mm-qcamerad sysfs_mods_camd:dir r_dir_perms;
 
 vndbinder_use(mm-qcamerad);
+
+allow mm-qcamerad camera_prop:file { read open getattr };
