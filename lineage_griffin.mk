@@ -29,7 +29,12 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
 # Overlays
+ifeq ($(GAPPS),true)
+DEVICE_PACKAGE_OVERLAYS += device/motorola/griffin/overlay-gapps
+$(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
+else
 DEVICE_PACKAGE_OVERLAYS += device/motorola/griffin/overlay
+endif
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
