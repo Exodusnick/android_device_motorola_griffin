@@ -107,6 +107,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.demo.hdmirotationlock=false \
     ro.hwui.texture_cache_flushrate=0.4 \
     ro.opengles.version=196609 \
+    debug.renderengine.backend=threaded \
     debug.sf.recomputecrop=0
 
 # Media
