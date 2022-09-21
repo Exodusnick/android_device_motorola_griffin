@@ -1,4 +1,3 @@
-typeattribute hal_sensors_default data_between_core_and_vendor_violators;
 allow hal_sensors_default self:netlink_kobject_uevent_socket read;
 allow hal_sensors_default sensors_device:chr_file ioctl;
 allow hal_sensors_default sysfs:file { open write };
