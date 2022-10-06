@@ -25,6 +25,7 @@ allow rild unlabeled:file { getattr open read };
 
 allow init socket_device:sock_file unlink;
 allow init sysfs:dir r_dir_perms;
+allow init sysfs:dir { create };
 allow init sysfs:file setattr;
 
 allow init debugfs:dir mounton;
