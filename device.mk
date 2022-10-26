@@ -276,10 +276,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libnfc \
     com.android.nfc_extras \
-    NfcNci \
     nqnfcee_access.xml \
     nqnfcse_access.xml \
-    SecureElement \
     Tag \
     android.hardware.nfc@1.1-service
 
