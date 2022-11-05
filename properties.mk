@@ -284,3 +284,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Zygote
 zygote.critical_window.minute=10
+
+# Bluetooth
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.bluetooth.bluetooth_audio_hal.disabled=false \
+    ro.bluetooth.a2dp_offload.supported=false \
+    persist.bluetooth.a2dp_offload.disabled=true
