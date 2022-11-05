@@ -64,7 +64,22 @@ PRODUCT_PROPERTY_OVERRIDES += \
     audio.playback.mch.downsample=0 \
     persist.vendor.audio.fluence.mode=none \
     persist.vendor.audio.endcall.delay=250 \
-    persist.vendor.audio.fluence.voicecomm=true
+    persist.vendor.audio.fluence.voicecomm=true \
+    bluetooth.device.class_of_device=90,2,12 \
+    bluetooth.profile.a2dp.source.enabled=true \
+    bluetooth.profile.asha.central.enabled=true \
+    bluetooth.profile.avrcp.target.enabled=true \
+    bluetooth.profile.bas.client.enabled=true \
+    bluetooth.profile.gatt.enabled=true \
+    bluetooth.profile.hfp.ag.enabled=true \
+    bluetooth.profile.hid.device.enabled=true \
+    bluetooth.profile.hid.host.enabled=true \
+    bluetooth.profile.map.server.enabled=true \
+    bluetooth.profile.opp.enabled=true \
+    bluetooth.profile.pan.nap.enabled=true \
+    bluetooth.profile.pan.panu.enabled=true \
+    bluetooth.profile.pbap.server.enabled=true \
+    bluetooth.profile.sap.server.enabled=true
 
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
