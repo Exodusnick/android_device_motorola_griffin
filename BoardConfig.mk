@@ -237,9 +237,6 @@ TARGET_PER_MGR_ENABLED := true
 # Media
 TARGET_USES_MEDIA_EXTENSIONS := true
 
-# SDClang
-TARGET_USE_SDCLANG := true
-
 # Vendor security patch level
 VENDOR_SECURITY_PATCH := 2019-11-01
 
