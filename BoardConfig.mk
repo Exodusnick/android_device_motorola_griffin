@@ -63,9 +63,6 @@ TARGET_2ND_CPU_VARIANT_RUNTIME := kryo
 # CPUSets
 ENABLE_CPUSETS := true
 
-TARGET_KERNEL_ADDITIONAL_FLAGS := \
-    HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
-
 # Crypto
 TARGET_HW_DISK_ENCRYPTION := true
 
