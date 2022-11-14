@@ -103,16 +103,18 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Graphics
 PRODUCT_PROPERTY_OVERRIDES += \
-    vendor.gralloc.enable_fb_ubwc=1 \
     debug.gralloc.enable_fb_ubwc=1 \
-    vendor.display.disable_skip_validate=1 \
-    vendor.display.disable_rotator_downscale=1 \
-    sdm.debug.disable_skip_validate=1 \
+    debug.hwui.renderer=skiagl \
+    debug.sf.recomputecrop=0 \
+    debug.renderengine.backend=skiaglthreaded \
     persist.demo.hdmirotationlock=false \
+    renderthread.skia.reduceopstasksplitting=true \
     ro.hwui.texture_cache_flushrate=0.4 \
     ro.opengles.version=196609 \
-    debug.renderengine.backend=threaded \
-    debug.sf.recomputecrop=0
+    sdm.debug.disable_skip_validate=1 \
+    vendor.display.disable_skip_validate=1 \
+    vendor.display.disable_rotator_downscale=1 \
+    vendor.gralloc.enable_fb_ubwc=1 \
 
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
