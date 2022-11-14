@@ -105,7 +105,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.display.disable_rotator_downscale=1 \
     sdm.debug.disable_skip_validate=1 \
     persist.demo.hdmirotationlock=false \
-    debug.sf.enable_hwc_vds=1 \
     ro.hwui.texture_cache_flushrate=0.4 \
     ro.opengles.version=196609 \
     debug.sf.recomputecrop=0
