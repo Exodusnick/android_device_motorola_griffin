@@ -62,15 +62,6 @@ lib64/lib_fpc_tac_shared.so:vendor/lib64/lib_fpc_tac_shared.so
 vendor/lib64/hw/fingerprint.msm8996.so
 lib64/libcom_fingerprints_service.so:vendor/lib64/libcom_fingerprints_service.so
 
-# Gatekeeper
-vendor/lib64/hw/gatekeeper.msm8996.so
-
-# Keystore
-vendor/lib64/hw/keystore.msm8996.so
-
-# Keymaster
-vendor/lib64/libkeymasterprovision.so
-
 # Sensors
 vendor/bin/motosh
 vendor/lib64/hw/sensorhub.msm8996.so

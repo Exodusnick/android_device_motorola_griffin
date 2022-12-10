@@ -163,6 +163,9 @@ vendor/lib64/libscvePanorama_lite.so
 vendor/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so
 vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so
 
+# Gatekeeper - from deen_sprout - QPKS30.54-22-11
+vendor/lib64/hw/gatekeeper.msm8996.so:vendor/lib64/hw/gatekeeper.msm8996.so|1086e5dcda7aa2bed7ac015f7850095f6199a1c2
+
 # GPS
 vendor/bin/garden_app
 vendor/bin/loc_launcher
@@ -269,6 +272,9 @@ vendor/firmware/a530v2_seq.fw2
 vendor/firmware/a530v3_gpmu.fw2
 vendor/firmware/a530v3_seq.fw2
 vendor/firmware/a540_gpmu.fw2
+
+# Keymaster - from deen_sprout - QPKS30.54-22-11
+vendor/lib64/hw/keystore.msm8996.so:vendor/lib64/hw/keystore.msm8996.so|9660e1c13a3589114cf18db58e5b3c3c9e14059b
 
 # Media
 vendor/lib/libAlacSwDec.so
