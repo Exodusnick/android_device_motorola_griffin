@@ -105,6 +105,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.gralloc.enable_fb_ubwc=1 \
     debug.hwui.renderer=skiagl \
+    debug.hwui.skia_atrace_enabled=false \
     debug.sf.enable_transaction_tracing=false \
     debug.sf.predict_hwc_composition_strategy=0 \
     debug.sf.recomputecrop=0 \
