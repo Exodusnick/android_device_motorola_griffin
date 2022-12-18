@@ -69,7 +69,6 @@ function blob_fixup() {
         vendor/bin/thermal-engine)
             sed -i "s|/system/etc/thermal|/vendor/etc/thermal|g" "${2}"
             ;;
-
         # Shim libgui for mot_gpu_mapper
         vendor/lib/libmot_gpu_mapper.so)
             sed -i "s/libgui/libwui/" "${2}"
