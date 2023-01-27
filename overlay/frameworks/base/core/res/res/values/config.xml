@@ -462,9 +462,6 @@
     <!-- Full screen aspect ratio -->
     <bool name="config_haveHigherAspectRatioScreen">false</bool>
 
-    <!-- Smart charging -->
-    <bool name="config_smartChargingAvailable">true</bool>
-
     <!-- Whether the device supports Smart Pixels -->
     <bool name="config_supportSmartPixels">true</bool>
 
