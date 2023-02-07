@@ -339,8 +339,7 @@ PRODUCT_ODM_PROPERTIES += \
 
 # QMI
 PRODUCT_PACKAGES += \
-    libjson \
-    libtinyxml
+    libjson
 
 # RenderScript HAL
 PRODUCT_PACKAGES += \
