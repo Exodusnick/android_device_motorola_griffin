@@ -55,3 +55,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := motorola/griffin/griffin:8.0.0/OPL27.76-71-2-3/3:user/release-keys
+
+$(call enforce-product-packages-exist,)
