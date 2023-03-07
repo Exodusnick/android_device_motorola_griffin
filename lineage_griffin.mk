@@ -19,18 +19,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # for specific
 $(call inherit-product, vendor/motorola/griffin/griffin-vendor.mk)
-$(call inherit-product, device/motorola/griffin/device.mk)
+$(call inherit-product, $(PLATFORM_PATH)/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += device/motorola/griffin/overlay
+DEVICE_PACKAGE_OVERLAYS += $(PLATFORM_PATH)/overlay
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
-    device/motorola/griffin/overlay/packages/apps/CarrierConfig
+    $(PLATFORM_PATH)/overlay/packages/apps/CarrierConfig
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2560
