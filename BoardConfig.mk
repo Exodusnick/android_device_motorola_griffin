@@ -153,9 +153,6 @@ LOC_HIDL_VERSION := 3.0
 # Qualcomm support
 BOARD_USES_QCOM_HARDWARE := true
 
-# Releasetools
-TARGET_RELEASETOOLS_EXTENSIONS := $(PLATFORM_PATH)
-
 # Recovery
 TARGET_RECOVERY_FSTAB := $(PLATFORM_PATH)/rootdir/etc/fstab.qcom
 BOARD_RAMDISK_USE_XZ := true
